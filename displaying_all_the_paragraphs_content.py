@@ -6,3 +6,4 @@ with open('D:\\Python\\Beautiful_Soup\\index.html','r') as file:
      paragraph_contents=soup.find_all('p');
      for items in paragraph_contents:
           print(items.text);
+           

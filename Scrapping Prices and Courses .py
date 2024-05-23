@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup;
 
-with open('D:\\Python\\Beautiful_Soup\\index.html','r') as file:
+with open('D:\\Python\\Beautiful_Soup\\index.html', 'r') as file:
           content=file.read();
           soup=BeautifulSoup(content,'lxml');
           content_course=soup.find_all('span');
